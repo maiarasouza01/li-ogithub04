@@ -20,7 +20,8 @@ library(tidyverse)
 Para carregar o *dataset* `titanic.csv`, use a função `read_csv()`.
 
 ```{r}
-titanic <- read_csv("dados/titanic.csv")
+titanic <- read_csv("D:/repositorios_github/04liçãogithub/dados/titanic.csv")
+View(titanic)
 ```
 
 
@@ -71,7 +72,7 @@ titanic %>%
 **Questão 03.** 
 Qual o sobrenome dessa pessoa? 
 Ele possui parentes ou cônjuge que estavam no navio? </br>
-*Resp.* Henry Wilson; não possuia parentes ou cônjuge.
+*Resp.* Barkworth; não possuia parentes ou cônjuge.
  
 ## 3. Observando as coisas ...
 

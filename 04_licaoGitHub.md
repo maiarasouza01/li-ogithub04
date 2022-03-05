@@ -10,7 +10,8 @@ Estat 2020.2
 Para carregar o *dataset* `titanic.csv`, use a função `read_csv()`.
 
 ``` r
-titanic <- read_csv("dados/titanic.csv")
+titanic <- read_csv("D:/repositorios_github/04liçãogithub/dados/titanic.csv")
+View(titanic)
 ```
 
 Explore, inicialmente, as variáveis de seu *dataset* com a função
@@ -92,7 +93,7 @@ titanic %>%
     ## #   porto_embarque <chr>
 
 **Questão 03.** Qual o sobrenome dessa pessoa? Ele possui parentes ou
-cônjuge que estavam no navio? </br> *Resp.* Henry Wilson; não possuia
+cônjuge que estavam no navio? </br> *Resp.* Barkworth; não possuia
 parentes ou cônjuge.
 
 ## 3. Observando as coisas …
